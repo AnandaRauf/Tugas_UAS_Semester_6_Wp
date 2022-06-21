@@ -166,7 +166,7 @@
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <form action="<?php echo base_url('tambahData')  ?>" method="post">
+          <form action="<?php echo base_url('Control_Index/tambahData')  ?>" method="post">
             <div class="form-grup">
               <label for="nama">Nama</label>
               <input required="required" type="text" name="name_client" class="form-control" placeholder="Masukan Nama">
