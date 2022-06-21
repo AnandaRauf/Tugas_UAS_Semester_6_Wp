@@ -57,6 +57,6 @@ $route['default_controller'] = 'Control_Index';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['Control_Index/(:any)'] = 'C_Index/$1';
+$route['Control_Index/(:any)'] = 'Control_Index/$1';
 $route['Control_Index/(:any)/(:any)'] = 'Control_Index/$1/$2';
 $route['Control_Index/(:any)/(:any)/(:any)'] = 'Control_Index/$1/$2/$3';
