@@ -169,19 +169,19 @@
           <form action="<?php echo base_url('Control_Index/tambahData')  ?>" method="post">
             <div class="form-grup">
               <label for="nama">Nama</label>
-              <input type="text" name="name_client" class="form-control" placeholder="Masukan Nama">
+              <input required="required" type="text" name="name_client" class="form-control" placeholder="Masukan Nama">
             </div>
             <div class="form-grup">
               <label for="email">Email</label>
-              <input type="email" name="email" class="form-control" placeholder="Masukan Email">
+              <input required="required" type="email" name="email" class="form-control" placeholder="Masukan Email">
             </div>
             <div class="form-grup">
               <label for="telp">No. Telp</label>
-              <input type="tel" name="phone_number" class="form-control" placeholder="Masukan No. Telepon">
+              <input required="required" type="tel" name="phone_number" class="form-control" placeholder="Masukan No. Telepon">
             </div>
             <div class="form-grup">
               <label for="telp">Subject</label>
-              <input type="tel" name="subject_hire" class="form-control" placeholder="Masukan Subject">
+              <input required="required" type="tel" name="subject_hire" class="form-control" placeholder="Masukan Subject">
             </div>
             <div class="form-grup">
               <label for="pesan">Pesan</label>
