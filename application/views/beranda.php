@@ -59,10 +59,10 @@
               </button>
 
               <a href="<?php echo base_url(). 'index.php'; ?>" class="navbar-brand page-scroll">Ananda Rauf Maududi</a>
-              <a href="<?php echo base_url(). 'Adit/'; ?>" class="navbar-brand page-scroll">Aditya Yusuf</a>
-              <a href="<?php echo base_url(). 'Iqbal/'; ?>" class="navbar-brand page-scroll">Iqbal Nugraha</a>
-              <a href="<?php echo base_url(). 'Valen/'; ?>" class="navbar-brand page-scroll">Valentina Febrianti</a>
-              <a href="<?php echo base_url(). 'Fachri/'; ?>" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
+              <a href="<?php echo base_url('view-adit')  ?>" class="navbar-brand page-scroll">Aditya Yusuf</a>
+              <a href="<?php echo base_url('view-iqbal')  ?>" class="navbar-brand page-scroll">Iqbal Nugraha</a>
+              <a href="<?php echo base_url('view-valen') ?>" class="navbar-brand page-scroll">Valentina Febrianti</a>
+              <a href="<?php echo base_url('view-valen') ?>" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -166,7 +166,7 @@
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <form action="<?php echo base_url(). 'beranda/tambah_aksi'; ?>" method="post">
+          <form action="<?php echo base_url('Control_Index/tambahData')  ?>" method="post">
             <div class="form-grup">
               <label for="nama">Nama</label>
               <input type="text" name="name_client" class="form-control" placeholder="Masukan Nama">

@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+//require_once("application/models/TambahData.php");
 
 // class HalamanUtama extends CI_Controller {
 
@@ -10,14 +11,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // }
 
 class Control_Index extends CI_Controller {
-function __construct(){ // Construct merupakan fungsi yang dijalankan pertama kali ketika controller dijalankan
+  function __construct(){ 
         parent::__construct();
-        $this->load->model('TambahData'); // auto load model M_Index
+        //$this->load->model('TambahData'); 
+        $this ->load->model('TambahData');
     }
 	public function index()
 	{
 		$dataFormHire = $this->TambahData->ambilData();
-		 $data['tb_form_hire'] = $dataFormHire;
+		$data['tb_form_hire'] = $dataFormHire;
 		$this->load->view('index',$data);
 		//$this->load->helper('url'); 
 
@@ -30,6 +32,17 @@ function __construct(){ // Construct merupakan fungsi yang dijalankan pertama ka
     	$phone_number = $this->input->post('phone_number');
     	$subject_hire = $this->input->post('subject_hire');
     	$message_hire = $this->input-post('mesage_hire');
+
+    	$data = ["name_client"  => $name_client,
+                 "email"     => $email,
+                 "phone_number"     => $phone_number,
+                 "subject_hire"   => $subject_hire,
+                 "message_hire" => $message_hire
+                ]; 
+ 
+ 
+        $this->TambahData->tambahDataa($data); 
+        redirect();
     }
 
 public function Adit()
