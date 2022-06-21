@@ -42,7 +42,7 @@ class Control_Index extends CI_Controller {
  
  
         $this->TambahData->tambahDataa($data); 
-        redirect();
+        redirect('index.php');
     }
 
 public function Adit()
@@ -69,3 +69,4 @@ public function Adit()
 	// 	echo "HARUS BISA";
 	// }
 }
+?>

@@ -8,6 +8,7 @@ class TambahData extends CI_Model {
         return $this->db->get('tb_form_hire')->result_array(); 
     }
     public function tambahDataa($data){
-        $this->db->set('tb_form_hire',$data);
+        $this->db->update('tb_form_hire',$data);
     }
 }
+?>
