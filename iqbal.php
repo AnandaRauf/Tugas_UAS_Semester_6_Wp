@@ -13,8 +13,8 @@
   
     <link rel="shortcut icon" type="image" href="assets/img/search_profile.png">
     <link rel="canonical" href="index.php"/>
-        <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     
   </head>
@@ -59,10 +59,10 @@
               </button>
 
               <a href="index.php" class="navbar-brand page-scroll">Ananda Rauf Maududi</a>
-              <a href="Adit/Aditya_Yusup" class="navbar-brand page-scroll">Aditya Yusuf</a>
-              <a href="Iqbal/Iqbal_Nugraha" class="navbar-brand page-scroll">Iqbal Nugraha</a>
-              <a href="Valen/Valentina_Febrianti" class="navbar-brand page-scroll">Valentina Febrianti</a>
-              <a href="Fachri/Fachri_Affif_Valensyah" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
+              <a href="adit.php" class="navbar-brand page-scroll">Aditya Yusuf</a>
+              <a href="iqbal.php" class="navbar-brand page-scroll">Iqbal Nugraha</a>
+              <a href="valen.php" class="navbar-brand page-scroll">Valentina Febrianti</a>
+              <a href="fachri.php" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -131,7 +131,7 @@
       
       <div class="col-sm-4">
         <a href="https//www.instagram.com/adityaysp9" class="thumbnail">
-          <img src="assets/img/instgram.png">
+          <img src="assets/img/instagram.png">
         </a>       
       </div>
           </div>
@@ -149,7 +149,8 @@
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <form>
+          <form action="tambahdata_form_hire.php" method="post">
+
             <div class="form-grup">
               <label for="nama">Nama</label>
               <input type="text" id="nama" class="form-control" placeholder="Masukan Nama">
@@ -163,13 +164,8 @@
               <input type="tel" id="telp" class="form-control" placeholder="Masukan No. Telepon">
             </div>
             <div class="form-grup">
-              <label for="Subject">&nbsp;</label>
-              <select class="form-control">
-              <option>-- Pilih Subject --</option>
-              <option>Cari kandidat baru</option>
-              <option>Kerjasama</option>
-                          
-            </select>
+              <label for="telp">Subject</label>
+              <input required="required" type="tel" name="subject_hire" class="form-control" placeholder="Masukan Subject">
             </div>
             <div class="form-grup">
               <label for="pesan">Pesan</label>
@@ -199,11 +195,11 @@
 
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="<?php echo base_url(); ?>assets/js/script.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   </body>

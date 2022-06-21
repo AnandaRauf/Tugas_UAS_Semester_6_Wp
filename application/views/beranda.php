@@ -59,10 +59,10 @@
               </button>
 
               <a href="<?php echo base_url(). 'index.php'; ?>" class="navbar-brand page-scroll">Ananda Rauf Maududi</a>
-              <a href="<?php echo base_url('view-adit')  ?>" class="navbar-brand page-scroll">Aditya Yusuf</a>
-              <a href="<?php echo base_url('view-iqbal')  ?>" class="navbar-brand page-scroll">Iqbal Nugraha</a>
-              <a href="<?php echo base_url('view-valen') ?>" class="navbar-brand page-scroll">Valentina Febrianti</a>
-              <a href="<?php echo base_url('view-valen') ?>" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
+              <a href="<?php echo base_url().'adit.php';  ?>" class="navbar-brand page-scroll">Aditya Yusuf</a>
+              <a href="<?php echo base_url().'iqbal.php';  ?>" class="navbar-brand page-scroll">Iqbal Nugraha</a>
+              <a href="<?php echo base_url().'valen.php';  ?>" class="navbar-brand page-scroll">Valentina Febrianti</a>
+              <a href="<?php echo base_url().'fachri.php';  ?>" class="navbar-brand page-scroll">Fachri Affif Valensyah</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

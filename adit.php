@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" id="home">
   <head>
@@ -12,13 +13,13 @@
   
     <link rel="shortcut icon" type="image" href="assets/img/search_profile.png">
     <link rel="canonical" href="index.php"/>
-        <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     
   </head>
   <body>
-  <script>
+    <script>
     // disable right click
     document.addEventListener('contextmenu', event => event.preventDefault());
 
@@ -46,6 +47,7 @@
     }
 
 </script>
+  
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -77,8 +79,8 @@
   
     <div class="jumbotron text-center">
       <img src="assets/img/rauf.jpg" class="img-circle">
-      <h1>Ananda Rauf Maududi</h1>
-      <p> Mahasiswa Teknologi Informasi Universitas Bina Sarana Informatika  | Software Development | Owner/Founder Tech Media Development </p>
+      <h1>Aditya Yusup</h1>
+      <p> Mahasiswa Teknologi Informasi Universitas Bina Sarana Informatika</p>
     </div>
   
 
@@ -95,12 +97,12 @@
       <div class="row">
         <div class="col-sm-5 col-sm-offset-1">
         <blockquote>
-          <p>Perkenalkan saya Ananda Rauf Maududi,Mahasiswa Teknologi Informasi semester 6 di Universitas Bina Sarana Informatika,saya memiliki pengalaman bisnis Teknologi selama 4 tahun dibidang Jasa professional Konsultasi IT,Software Development dan E-Commerce dan juga saya memiliki pengalaman bidang Software Development yaitu Web Development : CMS Wordpress,CMS Shopify,CMS Joomla,CMS OpenCart,dan CMS lainnya selama 4 tahun ,menggunakan framework CI 3 dan Laravel selama kurang lebih 6 bulan,Dekstop Development: VB.Net dan C# selama 5 tahun,dan Mobile Development: Java selama 3 tahun dan menggunakan framework Flutter selama 1 tahun.</p></blockquote>
+          <p>Perkenalkan saya Aditya Yusup,Mahasiswa Teknologi Informasi semester 6 di Universitas Bina Sarana Informatika,saya memiliki pengalaman bekerja dibidang marketing selama 3 tahun,dan saya pernah bekerja dibidang olahraga</p></blockquote>
         </div>
         <div class="col-sm-5">
         <blockquote>
           <p>
-            Apabila Ibu/Bapak Perusahaan mencari seorang kandidat baru untuk Perusahaan dibidang Teknologi,membutuhkan jasa saya untuk bisnis, dan untuk menjalin kerjasama bisa hubungi saya dengan mengisi formulir kontak. <br><br>Terima kasih.</br></br>Hormat saya,<br>Ananda Rauf Maududi<br>
+            Apabila Ibu/Bapak Perusahaan mencari seorang kandidat baru untuk Perusahaan dibidang mana saja, dan untuk menjalin kerjasama bisa hubungi saya dengan mengisi formulir kontak. <br><br>Terima kasih.</br></br>Hormat saya,<br>Adita Yusup<br>
           </p>  
         </blockquote>
         </div>
@@ -119,34 +121,17 @@
 
     <div class="row">
     <!-- Thumbnail Gambar -->
+
       <div class="col-sm-4">
-        <a href="angel.co/company/tech-media-development" class="thumbnail">
-          <img src="assets/img/bisnis.png">
-        </a>       
-      </div>
-      <div class="col-sm-4">
-        <a href="https://www.github.com/AnandaRauf" class="thumbnail">
-          <img src="assets/img/github.png">
-        </a>       
-      </div>
-      <div class="col-sm-4">
-        <a href="https//www.linkedin.com/in/ananda-rauf-maududi" class="thumbnail">
+        <a href="https//www.instagram.com/adityaysp9" class="thumbnail">
           <img src="assets/img/chat.png">
         </a>       
       </div>
+      
+      
       <div class="col-sm-4">
-        <a href="angel.co/company/tech-media-development" class="thumbnail">
-          <img src="assets/img/tmd.png">
-        </a>       
-      </div>
-      <div class="col-sm-4">
-        <a href="https://www.github.com/AnandaRauf" class="thumbnail">
-          <img src="assets/img/githubpage.png">
-        </a>       
-      </div>
-      <div class="col-sm-4">
-        <a href="https//www.linkedin.com/in/ananda-rauf-maududi" class="thumbnail">
-          <img src="assets/img/linkedin.png">
+        <a href="https//www.instagram.com/adityaysp9" class="thumbnail">
+          <img src="assets/img/instagram.png">
         </a>       
       </div>
           </div>
@@ -164,7 +149,8 @@
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <form>
+          <form action="tambahdata_form_hire.php" method="post">
+
             <div class="form-grup">
               <label for="nama">Nama</label>
               <input type="text" id="nama" class="form-control" placeholder="Masukan Nama">
@@ -178,13 +164,8 @@
               <input type="tel" id="telp" class="form-control" placeholder="Masukan No. Telepon">
             </div>
             <div class="form-grup">
-              <label for="Subject">&nbsp;</label>
-              <select class="form-control">
-              <option>-- Pilih Subject --</option>
-              <option>Cari kandidat baru</option>
-              <option>Kerjasama</option>
-              <option>Konsultasi IT atau Pesan Jasa</option>             
-            </select>
+              <label for="telp">Subject</label>
+              <input required="required" type="tel" name="subject_hire" class="form-control" placeholder="Masukan Subject">
             </div>
             <div class="form-grup">
               <label for="pesan">Pesan</label>
@@ -214,13 +195,14 @@
 
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="<?php echo base_url(); ?>assets/js/script.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   </body>
 
 </html>
+

@@ -24,6 +24,6 @@ $sql = "INSERT INTO tb_form_hire SET name_client='$name_client', phone_number='$
 mysqli_query($link, $sql);
 echo("Berhasil input data");
  
-header("location:beranda.php"); 
+header("location:index.php"); 
 #header("location:beranda.php");
 ?>
