@@ -14,11 +14,11 @@ class Control_Index extends CI_Controller {
   function __construct(){ 
         parent::__construct();
         //$this->load->model('TambahData'); 
-        $this ->load->model('TambahData');
+        $this ->load->model('TambahDataKontak');
     }
 	public function index()
 	{
-		$dataFormHire = $this->TambahData->ambilData();
+		$dataFormHire = $this->TambahDataKontak->ambilData();
 		$data['tb_form_hire'] = $dataFormHire;
 		$this->load->view('index',$data);
 		//$this->load->helper('url'); 
@@ -41,14 +41,33 @@ class Control_Index extends CI_Controller {
                 ]; 
  
  
-        $this->TambahData->tambahDataa($data); 
+        $this->TambahDataKontak->tambahDataa($data); 
         redirect('index.php');
     }
+public function Admin(){
+	$this->load->view('admin');
+	//redirect(base_url('admin'));
+}
+public function site_lang($site_lang) {
+		echo $site_lang;
+		echo '<br>';
+		echo 'you will be redirected to :'.$_SERVER['HTTP_REFERER'];
+		$language_data = array(
+			'site_lang' => $site_lang
+		);
 
+		$this->session->set_userdata($language_data);
+		if ($this->session->userdata('site_lang')) {
+			echo 'user session language is = '.$this->session->userdata('site_lang');
+		}
+		redirect($_SERVER['HTTP_REFERER']);
+
+		exit;
+	}
 public function Adit()
 	{
 		$this->load->view('view-adit');
-		redirect('view-adit');
+		#redirect('view-adit');
 	}
 	public function Iqbal()
 	{

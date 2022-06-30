@@ -50,13 +50,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Control_Index';
-//$routes['Adit'] = 'Adit/Aditya_Yusup';
-//$routes['Iqbal'] = 'Iqbal/Iqbal_Nugraha';
-//$routes['Valen'] = 'Valen/Valentina_Febrianti';
-//$routes['Fachri'] = 'Fachri/Fachri_Affif_Valensyah';
+$route['A]dit'] = 'view-adit.php';
+$route['Iqbal'] = 'view-iqbal';
+$route['Valen'] = 'view-valen.php';
+$route['Fachri'] = 'view-fachri.php';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['Control_Index/(:any)'] = 'Control_Index/$1';
-$route['Control_Index/(:any)/(:any)'] = 'Control_Index/$1/$2';
-$route['Control_Index/(:any)/(:any)/(:any)'] = 'Control_Index/$1/$2/$3';
+//$route['Control_Index/(:any)'] = 'Control_Index/$1';
+//$route['Control_Index/(:any)/(:any)'] = 'Control_Index/$1/$2';
+//$route['Control_Index/(:any)/(:any)/(:any)'] = 'Control_Index/$1/$2/$3';
+$route['admin'] = 'admin/dashboard';
+
+
+// Admin Locations
+$route['admin/location/country/add'] = 'admin/location/country_add';
+$route['admin/location/country/edit/(:num)'] = 'admin/location/country_edit/$1';
+$route['admin/location/country/del/(:num)'] = 'admin/location/country_del/$1';
+$route['admin/location/state/add'] = 'admin/location/state_add';
+$route['admin/location/state/edit/(:num)'] = 'admin/location/state_edit/$1';
+$route['admin/location/state/del/(:num)'] = 'admin/location/state_del/$1';
+$route['admin/location/city/add'] = 'admin/location/city_add';
+$route['admin/location/city/edit/(:num)'] = 'admin/location/city_edit/$1';
+$route['admin/location/city/del/(:num)'] = 'admin/location/city_del/$1';
