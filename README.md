@@ -36,7 +36,7 @@ Untuk kontribusi projects memperlukan:
 Kontak kami:
 - Ananda Rauf Maududi:
 - Aditya Yusup: adityayusup98@gmail.com
-- 
+- Valentia Febrianti: vndaro4@gmail.com
 - 
 - 
 
