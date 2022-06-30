@@ -38,7 +38,7 @@ Kontak kami:
 - Aditya Yusup: adityayusup98@gmail.com
 - Valentia Febrianti: vndaro4@gmail.com
 - Fachri Affif Valensyah: judin6240@gmail.com
-- 
+- Iqbal Nugraha: iqbalmodi901@gmail.com
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
