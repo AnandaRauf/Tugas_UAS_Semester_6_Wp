@@ -26,10 +26,10 @@ Comingsoon Feature:
 
 Untuk kontribusi projects memperlukan:
 
-- ![Download Github CLI](https://cli.github.com/)
-- ![Download Sublime Text 3](https://www.sublimetext.com/3)
-- ![Download Xampp version 3.2.2 Php version 5.7](https://sourceforge.net/projects/xampp/files/)
-- ![Download Personal Profile projects](https://github.com/AnandaRauf/Tugas_UAS_Semester_6_Wp/tree/master)
+- [Download Github CLI](https://cli.github.com/)
+- [Download Sublime Text 3](https://www.sublimetext.com/3)
+- [Download Xampp version 3.2.2 Php version 5.7](https://sourceforge.net/projects/xampp/files/)
+- [Download Personal Profile projects](https://github.com/AnandaRauf/Tugas_UAS_Semester_6_Wp/tree/master)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
