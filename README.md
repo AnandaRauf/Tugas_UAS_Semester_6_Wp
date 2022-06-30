@@ -4,7 +4,7 @@ Tugas UAS semester 6 Web Programming
  
 Saya dari Universitas Bina Sarana Informatika Jatiwaringin,Fakultas Teknik dan Informatika,Jurusan Teknologi Informasi,kelas TI 17.6A.11.
 
-Membagikan tugas UAS semester 6 Web Programming kelompok saya menggunakan Code Igniter version 3.0,database menggunakan Mysql,menggunakan Php version 5.7,saya dan kelompok saya berjumlah beranggota 6 kelompok.
+Membagikan tugas UAS semester 6 Web Programming kelompok saya menggunakan Code Igniter version 3.0,database menggunakan Mysql,menggunakan Php version 5.7,saya dan kelompok saya berjumlah 5 anggota kelompok.
 
 Berikut anggota kelompok 6:
 
